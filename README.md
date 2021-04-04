@@ -5,7 +5,7 @@
 ### for documentation click this link: https://documenter.getpostman.com/view/13593391/TzCQa6Hn
 
 ### how to run:
-
+```
 1. First, run npm install in terminal and run the development server with:
     ```bash
     npm run dev
@@ -45,3 +45,4 @@
   Input access_token in header and Delete method with 
   url: http://localhost:3000/api/ticket/:id
   Send to get Response
+ ```
