@@ -14,26 +14,34 @@
     ```
     and connect to mongodb
 2. Register User:
-  Open Postman and Post method with url: http://localhost:3000/api/register/
+  Open Postman and Post method with 
+  url: http://localhost:3000/api/register/
   Send to get Response
 3. Login User:
-  Input Post method with url: http://localhost:3000/api/login
-  Send to get Response
+  Input Post method with 
+  url: http://localhost:3000/api/login
+  Send to get Response and access_token
+  Input access_token as a header in every end-point
 4. Get All Ticket:
-  Input limt params and Get method with url: http://localhost:3000/api/ticket?limit=
+  Input limit params,header-access_token and Get method with 
+  url: http://localhost:3000/api/ticket?limit=
   Send to get Response
 5. Post Ticket:
-  Input Post method with url: http://localhost:3000/api/ticket/
+  Input access_token in header and Post method with 
+  url: http://localhost:3000/api/ticket/
   Input Request Body
   Send to get Response
 6. Update Status and message Ticket:
-  Input Put method with url: http://localhost:3000/api/ticket/:ticket-number
+  Input access_token in header and Put method with 
+  url: http://localhost:3000/api/ticket/:ticket-number
   Input Request Body
   Send to get Response
 7. Change Ticket Status to Closed:
-  Input Patch method with url: http://localhost:3000/api/ticket/:ticket-number
+  Input access_token in header and Patch method with 
+  url: http://localhost:3000/api/ticket/:ticket-number
   Input Request Body
   Send to get Response
 8. Delete Ticket:
-  Input Delete method with url: http://localhost:3000/api/ticket/:id
+  Input access_token in header and Delete method with 
+  url: http://localhost:3000/api/ticket/:id
   Send to get Response
