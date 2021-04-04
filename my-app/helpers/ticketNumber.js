@@ -1,6 +1,5 @@
 const db = require('../util/mongodb')
 const ticket = db.collection('ticket')
-const {ObjectId} = require('mongodb')
 
 
 function generateNumber(object) {
@@ -20,4 +19,4 @@ function generateNumber(object) {
     return ticketNumber
   
 }
-module.exports = {generateNumber}
+module.exports = generateNumber
